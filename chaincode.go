@@ -9,7 +9,7 @@ import (
 
 type SimpleChaincode struct {
 }
-#main
+
 func main() {
 	err := shim.Start(new(SimpleChaincode))
 	if err != nil {
